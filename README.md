@@ -1,4 +1,4 @@
-Docker image for experimenting with TOTP-based SSH.
+Docker image for experimenting with SSH via TOTP.
 
 ```
 docker build .
