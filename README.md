@@ -1,5 +1,9 @@
 Docker image for experimenting with SSH via TOTP.
 
+* Ubuntu 16.10 (Yakkety Yak) - to use latest libpam-google-authenticator
+* ntp - to synch time
+* augeas-tools - for configuring stuff
+
 ```
 docker build .
 docker run -it <image ID from previous step>
